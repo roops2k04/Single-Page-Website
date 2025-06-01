@@ -1,0 +1,8 @@
+let paragraphs = document.querySelectorAll(".desc");
+
+function mouseOver() {
+  for (var i = 0; i < paragraphs.length; i++) {
+    paragraphs[i].style.display = "inherit";
+    console.log("mouse over");
+  }
+}
